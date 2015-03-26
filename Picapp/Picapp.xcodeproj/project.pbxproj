@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		27FDEDD41AC28D2F00EA793B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FDEDD31AC28D2F00EA793B /* main.m */; };
 		27FDEDD71AC28D2F00EA793B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FDEDD61AC28D2F00EA793B /* AppDelegate.m */; };
-		27FDEDDA1AC28D2F00EA793B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FDEDD91AC28D2F00EA793B /* ViewController.m */; };
 		27FDEDDD1AC28D2F00EA793B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27FDEDDB1AC28D2F00EA793B /* Main.storyboard */; };
 		27FDEDDF1AC28D2F00EA793B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27FDEDDE1AC28D2F00EA793B /* Images.xcassets */; };
 		27FDEDE21AC28D2F00EA793B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27FDEDE01AC28D2F00EA793B /* LaunchScreen.xib */; };
 		27FDEDEE1AC28D2F00EA793B /* PicappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FDEDED1AC28D2F00EA793B /* PicappTests.m */; };
+		27FDEDF91AC411BE00EA793B /* VMLauncherScreen_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FDEDF81AC411BE00EA793B /* VMLauncherScreen_ViewController.m */; };
+		27FDEDFC1AC411E000EA793B /* VMMain_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FDEDFB1AC411E000EA793B /* VMMain_ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +33,16 @@
 		27FDEDD31AC28D2F00EA793B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		27FDEDD51AC28D2F00EA793B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		27FDEDD61AC28D2F00EA793B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		27FDEDD81AC28D2F00EA793B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		27FDEDD91AC28D2F00EA793B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		27FDEDDC1AC28D2F00EA793B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		27FDEDDE1AC28D2F00EA793B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		27FDEDE11AC28D2F00EA793B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		27FDEDE71AC28D2F00EA793B /* PicappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27FDEDEC1AC28D2F00EA793B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27FDEDED1AC28D2F00EA793B /* PicappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PicappTests.m; sourceTree = "<group>"; };
+		27FDEDF71AC411BE00EA793B /* VMLauncherScreen_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMLauncherScreen_ViewController.h; sourceTree = "<group>"; };
+		27FDEDF81AC411BE00EA793B /* VMLauncherScreen_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMLauncherScreen_ViewController.m; sourceTree = "<group>"; };
+		27FDEDFA1AC411E000EA793B /* VMMain_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMMain_ViewController.h; sourceTree = "<group>"; };
+		27FDEDFB1AC411E000EA793B /* VMMain_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMMain_ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,12 +86,14 @@
 			children = (
 				27FDEDD51AC28D2F00EA793B /* AppDelegate.h */,
 				27FDEDD61AC28D2F00EA793B /* AppDelegate.m */,
-				27FDEDD81AC28D2F00EA793B /* ViewController.h */,
-				27FDEDD91AC28D2F00EA793B /* ViewController.m */,
 				27FDEDDB1AC28D2F00EA793B /* Main.storyboard */,
 				27FDEDDE1AC28D2F00EA793B /* Images.xcassets */,
 				27FDEDE01AC28D2F00EA793B /* LaunchScreen.xib */,
 				27FDEDD11AC28D2F00EA793B /* Supporting Files */,
+				27FDEDF71AC411BE00EA793B /* VMLauncherScreen_ViewController.h */,
+				27FDEDF81AC411BE00EA793B /* VMLauncherScreen_ViewController.m */,
+				27FDEDFA1AC411E000EA793B /* VMMain_ViewController.h */,
+				27FDEDFB1AC411E000EA793B /* VMMain_ViewController.m */,
 			);
 			path = Picapp;
 			sourceTree = "<group>";
@@ -219,7 +224,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27FDEDDA1AC28D2F00EA793B /* ViewController.m in Sources */,
+				27FDEDFC1AC411E000EA793B /* VMMain_ViewController.m in Sources */,
+				27FDEDF91AC411BE00EA793B /* VMLauncherScreen_ViewController.m in Sources */,
 				27FDEDD71AC28D2F00EA793B /* AppDelegate.m in Sources */,
 				27FDEDD41AC28D2F00EA793B /* main.m in Sources */,
 			);
@@ -412,6 +418,7 @@
 				27FDEDF31AC28D2F00EA793B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27FDEDF41AC28D2F00EA793B /* Build configuration list for PBXNativeTarget "PicappTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +427,7 @@
 				27FDEDF61AC28D2F00EA793B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
